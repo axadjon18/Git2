@@ -1,0 +1,55 @@
+.site-header{
+    background: #f1f1f1;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+.logo{
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+}
+.nav-item{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+.nav-item:hover{
+    color: #7a7b3d;
+}
+.knopka{
+    background: #0f0f0f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.knopka:hover{
+    background: #7a7b3d;
+    color: #fff;
+    
+}
+
+a{
+    text-decoration: none;
+}
